@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/permission"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Switch
+        android:id="@+id/meeting1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/google_meeting"
+        />
+
+    <Switch
+        android:id="@+id/meeting2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/zoom"
+        />
+    <Switch
+        android:id="@id/meeting3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/skype"
+        />
+    <Switch
+        android:id="@+id/meeting4"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/e_mail"
+        />
+    <Switch
+        android:id="@+id/meeting5"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/whatsapp"
+        />
+    <Switch
+        android:id="@id/meeting6"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/file_manager"
+        />
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_timming"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:timePickerMode="spinner"
+        android:saveEnabled="true"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_for_update"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

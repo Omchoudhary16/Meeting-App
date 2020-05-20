@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Meeting Scheduling</string>
+    <string name="email">Email</string>
+    <string name="button">Button</string>
+    <string name="meeting_i_d">Meeting I\'d</string>
+    <string name="date_and_time">Date And Time</string>
+    <string name="host_of_meeting">Host of Meeting</string>
+    <string name="enter_link_of_meeting">Enter Link of Meeting</string>
+    <string name="password">Password</string>
+    <string name="description_of_meeting">Description of Meeting</string>
+    <string name="save">SAVE</string>
+    <string name="title_of_meeting">Title of Meeting</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="zoom">Zoom</string>
+    <string name="permission">Permission</string>
+    <string name="WhatsApp" />
+    <string name="google_meeting">Google Meeting</string>
+    <string name="skype">Skype</string>
+    <string name="e_mail">E-mail</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="file_manager">File Manager</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="alert_timming">Alert timming</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_e_mail_id">Enter E-mail ID</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+</resources>

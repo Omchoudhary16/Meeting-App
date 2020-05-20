@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homepage">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:contentDescription="@string/todo"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="276dp"
+        android:layout_height="30dp"
+        android:autofillHints="@android:string/untitled"
+        android:text="@android:string/unknownName"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        tools:srcCompat="@android:drawable/ic_menu_preferences" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+
+   </LinearLayout>
